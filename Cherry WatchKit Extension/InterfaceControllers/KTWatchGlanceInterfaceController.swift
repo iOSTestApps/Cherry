@@ -45,8 +45,8 @@ class KTWatchGlanceInterfaceController: WKInterfaceController {
 
     func updateUserActivityForHandOff() {
         if let activity = KTActivityManager.sharedInstance.activeActivityInSharedStorage() {
-            let userInfo = ["type" : "com.corgitoergosum.KTPomodoro.select_activity", "activityID" : activity.activityID]
-            self.updateUserActivity("com.corgitoergosum.KTPomodoro.active_task", userInfo: userInfo, webpageURL: nil)
+            let userInfo = ["type" : "bb.com.corgitoergosum.KTPomodoro.select_activity", "activityID" : activity.activityID]
+            self.updateUserActivity("bb.com.corgitoergosum.KTPomodoro.active_task", userInfo: userInfo, webpageURL: nil)
         }
 
     }

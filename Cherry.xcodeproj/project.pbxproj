@@ -391,7 +391,7 @@
 				TargetAttributes = {
 					8E84489B1A9AB16C000A549F = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = Y54H2D8RT6;
+						DevelopmentTeam = L4FET847JL;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -404,7 +404,7 @@
 					};
 					8E8448C41A9AB239000A549F = {
 						CreatedOnToolsVersion = 6.2;
-						DevelopmentTeam = Y54H2D8RT6;
+						DevelopmentTeam = L4FET847JL;
 						SystemCapabilities = {
 							com.apple.ApplicationGroups.iOS = {
 								enabled = 1;
@@ -413,6 +413,7 @@
 					};
 					8E8448D31A9AB239000A549F = {
 						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = L4FET847JL;
 					};
 				};
 			};
@@ -675,6 +676,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -694,6 +696,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -709,6 +712,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -726,6 +730,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
 				IBSC_MODULE = Cherry_WatchKit_Extension;
 				INFOPLIST_FILE = "Cherry WatchKit App/Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -757,8 +762,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_ENTITLEMENTS = "Cherry WatchKit Extension/Cherry WatchKit Extension.entitlements";
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
 				INFOPLIST_FILE = "Cherry WatchKit Extension/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
 				PRODUCT_NAME = "${TARGET_NAME}";

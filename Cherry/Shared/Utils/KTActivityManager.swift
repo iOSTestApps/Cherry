@@ -39,7 +39,7 @@ class KTActivityManager {
     func startActivity(activity:KTPomodoroActivityModel, error:NSErrorPointer) {
 
         if (self.hasOtherActiveActivityInSharedState(activity.activityID)) {
-            error.memory =  NSError(domain:"com.corgitoergosum.net",
+            error.memory =  NSError(domain:"bb.com.corgitoergosum.net",
                 code: Constants.KTPomodoroStartActivityError.OtherActivityActive.rawValue,
                 userInfo: nil)
             return

@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		181F478C230CA6621379BC96 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59FD5DED0CD31B92CA6908B9 /* SystemConfiguration.framework */; };
+		21F8A67D140423BCF0E291A9 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDE2A7FC384792F3469CE06C /* AssetsLibrary.framework */; };
 		8E4158411A9D1B8200E773E2 /* KTWatchActivitiesListInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4158401A9D1B8200E773E2 /* KTWatchActivitiesListInterfaceController.swift */; };
 		8E8448A21A9AB16C000A549F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E8448A11A9AB16C000A549F /* AppDelegate.swift */; };
 		8E8448A71A9AB16C000A549F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E8448A51A9AB16C000A549F /* Main.storyboard */; };
@@ -42,6 +44,9 @@
 		8EFC7CA81A9D60C400C4E814 /* KTWatchAddActivityRowInterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8EFC7CA71A9D60C400C4E814 /* KTWatchAddActivityRowInterfaceController.swift */; };
 		8EFC7CAB1A9D7ABE00C4E814 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC7CAA1A9D7ABE00C4E814 /* Settings-Watch.bundle */; };
 		8EFC7CAC1A9D7ABE00C4E814 /* Settings-Watch.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 8EFC7CAA1A9D7ABE00C4E814 /* Settings-Watch.bundle */; };
+		A6D38012B0BF0C4F1DA89322 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67632DB6779542F1B5A5BE54 /* CoreText.framework */; };
+		D126365AF8DF82E061F1425E /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD34822E910683942D3486AC /* CoreTelephony.framework */; };
+		F2B467F17D1A4374C19D99ED /* BuddyBuildSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96DCFF21B2453FB0952082E6 /* BuddyBuildSDK.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +88,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35618EDAD336CCB3D56A39AE /* Bridging-Header.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
+		59FD5DED0CD31B92CA6908B9 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		67632DB6779542F1B5A5BE54 /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
 		8E4158401A9D1B8200E773E2 /* KTWatchActivitiesListInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTWatchActivitiesListInterfaceController.swift; path = InterfaceControllers/KTWatchActivitiesListInterfaceController.swift; sourceTree = "<group>"; };
 		8E84489C1A9AB16C000A549F /* Cherry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cherry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E8448A01A9AB16C000A549F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -119,6 +127,9 @@
 		8EFC7CA51A9D539200C4E814 /* KTWatchActivityDetailsInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTWatchActivityDetailsInterfaceController.swift; path = InterfaceControllers/KTWatchActivityDetailsInterfaceController.swift; sourceTree = "<group>"; };
 		8EFC7CA71A9D60C400C4E814 /* KTWatchAddActivityRowInterfaceController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = KTWatchAddActivityRowInterfaceController.swift; path = InterfaceControllers/KTWatchAddActivityRowInterfaceController.swift; sourceTree = "<group>"; };
 		8EFC7CAA1A9D7ABE00C4E814 /* Settings-Watch.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = "Settings-Watch.bundle"; path = "Shared/Resources/Settings-Watch.bundle"; sourceTree = "<group>"; };
+		96DCFF21B2453FB0952082E6 /* BuddyBuildSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = BuddyBuildSDK.framework; sourceTree = "<group>"; };
+		AD34822E910683942D3486AC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		FDE2A7FC384792F3469CE06C /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -126,6 +137,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F2B467F17D1A4374C19D99ED /* BuddyBuildSDK.framework in Frameworks */,
+				21F8A67D140423BCF0E291A9 /* AssetsLibrary.framework in Frameworks */,
+				A6D38012B0BF0C4F1DA89322 /* CoreText.framework in Frameworks */,
+				D126365AF8DF82E061F1425E /* CoreTelephony.framework in Frameworks */,
+				181F478C230CA6621379BC96 /* SystemConfiguration.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,6 +162,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		659949CB79F976434BA9F1CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				96DCFF21B2453FB0952082E6 /* BuddyBuildSDK.framework */,
+				FDE2A7FC384792F3469CE06C /* AssetsLibrary.framework */,
+				67632DB6779542F1B5A5BE54 /* CoreText.framework */,
+				AD34822E910683942D3486AC /* CoreTelephony.framework */,
+				59FD5DED0CD31B92CA6908B9 /* SystemConfiguration.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8E41583F1A9D1B0200E773E2 /* InterfaceControllers */ = {
 			isa = PBXGroup;
 			children = (
@@ -169,6 +197,8 @@
 				8E8448C61A9AB239000A549F /* Cherry WatchKit Extension */,
 				8E8448D81A9AB239000A549F /* Cherry WatchKit App */,
 				8E84489D1A9AB16C000A549F /* Products */,
+				659949CB79F976434BA9F1CA /* Frameworks */,
+				35618EDAD336CCB3D56A39AE /* Bridging-Header.h */,
 			);
 			sourceTree = "<group>";
 		};
@@ -650,10 +680,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Cherry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -665,10 +700,15 @@
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = Cherry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bridging-Header.h";
 			};
 			name = Release;
 		};
